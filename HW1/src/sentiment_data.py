@@ -172,7 +172,7 @@ class SentimentExampleBatchIterator:
             batch_lengths = np.array(batch_lengths)
             batch_labels = np.array(batch_labels)
 
-            # the next line converts them to torch.Tensor objects so they could be used by follow-up code
+            # the next line converts them to torch.Tensor objects so they could be used by follow-up code 
             return (torch.tensor(batch_inputs), torch.tensor(batch_lengths), torch.tensor(batch_labels))
         else:
             return None
