@@ -27,7 +27,7 @@ def seed_everything(seed=11711):
 
 class BertSentClassifier(torch.nn.Module):
     def __init__(self, config):
-        super(BertSentClassifier, self).__init__()
+        super(BertSentClassifier, self).__init__() 
         self.num_labels = config.num_labels
         self.bert = BertModel.from_pretrained('bert-base-uncased')
 
