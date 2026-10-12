@@ -12,3 +12,4 @@ The provided project contains the following:
 - Kindly modify the input argument output_dir as needed in the run.sh file.
 - Execute run.sh to utilize various pre-trained models.
 - Run plot.py to create the charts mentioned in the report.
+
