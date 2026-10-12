@@ -10,7 +10,7 @@ class PretrainedConfig(object):
   is_composition: bool = False
 
   def __init__(self, **kwargs):
-    # Attributes with defaults
+    # Attributes with defaults 
     self.return_dict = kwargs.pop("return_dict", True)
     self.output_hidden_states = kwargs.pop("output_hidden_states", False)
     self.output_attentions = kwargs.pop("output_attentions", False)
