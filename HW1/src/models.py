@@ -52,7 +52,7 @@ class FeedForwardNeuralNetClassifier(nn.Module):
                 if vector is not None:
                     embedding_matrix[i] = vector
 
-            #create representation of unknown words as the average of all the pretrianed words vectors which is very rare to occur
+            #create representation of unknown words as the average of all the pretrianed words vectors which is very rare to occur 
             with open(args.glove_path, 'r') as f:
                 for i, line in enumerate(f):
                     pass
