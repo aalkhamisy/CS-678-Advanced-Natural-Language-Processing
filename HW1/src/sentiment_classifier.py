@@ -76,4 +76,4 @@ if __name__ == '__main__':
             all_preds += preds
             batch_data = eval_batch_iterator.get_next_batch()
         test_exs_predicted = [SentimentExample(ex.words, all_preds[ex_idx]) for ex_idx, ex in enumerate(test_exs_words_only)]
-        write_sentiment_examples(test_exs_predicted, args.test_output_path)
+        write_sentiment_examples(test_exs_predicted, args.test_output_path) 
