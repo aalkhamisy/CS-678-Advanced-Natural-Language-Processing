@@ -7,7 +7,7 @@ def evaluate(classifier, exs: List[SentimentExample], return_metrics: bool=False
     :param classifier: classifier to evaluate
     :param exs: the list of SentimentExamples to evaluate on
     :param return_metrics: set to True if returning the stats
-    :return: None (but prints output)
+    :return: None (but prints output) 
     """
     all_labels = []
     all_preds = []
